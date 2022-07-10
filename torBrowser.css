@@ -1,0 +1,52 @@
+a:hover{
+    color: #794646;
+}
+a:active{
+    color: #59a5b8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-link{
+  color: #794646;
+  font-size: 25px;
+}
+
+body{
+    background-color: #14171a;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+.container{
+    width: 100%;
+}
+.floor1{
+    width: 80%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.More-f1-h1{
+color: white;
+}
+.More-f1-p{
+    color: white;
+}
+.More-f1-link{
+    font-size: 25px;
+    margin-left: 2%;
+    background-color: #14171a;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}

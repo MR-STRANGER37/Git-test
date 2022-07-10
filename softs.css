@@ -1,0 +1,265 @@
+/* html {
+    scroll-behavior: smooth;
+  } */
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: rgb(50, 188, 209); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(50, 188, 209); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+
+a:hover{
+    color: #794646;
+}
+a:active{
+    color: #59a5b8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-link{
+  color: #794646;
+  font-size: 25px;
+}
+
+body{
+    width: 100%;
+    color: white;
+    background-image: url("../photos/mingwei-lim-nUbcA9rGZSg-unsplash.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    background-size: contain;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+.container{
+    width: 100%;
+}
+
+
+.floor1{
+    width: 100%;
+    align-items: center;
+}
+
+.f1-h1{
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+
+#videoBG {
+    z-index: -1;
+
+    width:100%;     
+    height: auto;
+}
+.floor2{
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.f2-r1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.f2-h1{
+    color: white;
+    margin-left: 5%;
+}
+
+.f2-form{
+    width: 100%;
+}
+
+.f2-input{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.f1MyNav-span{
+    margin-left: 50%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+
+
+
+.f2-katalog-app{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.f2-katalog-app-r1{
+width: 90%;
+margin-left: 5%;
+display: flex;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.34);
+margin-top: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.f2-katalog-app-r1-z1{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.katalog-img{
+    margin-left: 5%;
+}
+
+.f2-katalog-app-h1{
+    text-align: center;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+
+.f2-katalog-app-p{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.katalog-span{
+    width: 100%;
+}
+
+.katalog-links{
+font-size: 25px;
+margin-left: 2%;
+background-color: #14171a;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+}
+
+
+
+@media all and (max-width:1100px){
+    body{
+      width: 100%;
+      color: white;
+      background-image: url("../photos/8machine-_-5VXfRHw753Y-unsplash.jpg");
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      font-family: Open Sans;
+      background-size: contain;
+      background-size: 100% 105%;
+  }
+  }
+
+
+
+
+
+
+@media all and (max-width:700px){
+    .f2-r1{
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+    .f2-input{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .f2-katalog-app-r1{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .f2-katalog-app-r1-z1{
+        align-items: center;
+        text-align: center;
+    }
+  
+  }
